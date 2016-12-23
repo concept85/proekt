@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title>Мое портфолио</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="min-width:500px">
+	<header>
+		<h1 class="выравнивание">Мой сайт портфолио</h1>
+		<address>
+			<div>Город: Екатеринбург</div>	
+			<div>Телефон: 9522222222</div>
+		</address>
+	</header>
+		<hr class="цвет">
+
+	<main>
+		<div class="left-col">
+			<aside>
+				<div>
+					<form action="auth.php" method="post">
+						<input type="text" name="name" id="name2" placeholder="Ведите имя">
+						<input type="text" name="name" id="name3" placeholder="Ведите пароль">
+						<input type="submit" name="name" id="name4" value="войти">
+						<input type="reset" value="сброс">
+					</form>
+				</div>
+				<div>
+					<h2 class="заголовок">Мои контакты</h2>
+					<div>
+						<h3 >Я в соц. сетях</h3>
+						<ul>
+							<li><a href="https://vk.com/id11110758" target="_blank">Я в ВК</a></li>
+							<li><a href="https://ok.ru/profile/116505384174">Я в ОК</a></li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<nav>
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Блог</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="right-col">
+			<section>
+				<h2 class="заголовок" >Обо мне</h2>
+				<div>
+					<figure>
+						<img src="заяц.jpg" width="300" height="225" alt="мое фото" title="Зая зайкин" class="img-center">
+						<figcaption>
+						Мое фото
+						</figcaption>
+					</figure>
+
+				</div>	
+				<div>
+					<h3>Моя биография</h3>
+						<p align="justify" class="padding" >Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое. Лежа на панцирнотвердой спине, он видел, стоило ему приподнять голову, свой коричневый, выпуклый, разделенный дугообразными чешуйками живот, на верхушке которого еле держалось готовое вот-вот окончательно сползти одеяло. Его многочисленные, убого тонкие по сравнению с остальным телом ножки беспомощно копошились у него перед глазами. «Что со мной случилось?» – подумал он. Это не было сном. Его комната, настоящая, разве что слишком маленькая, но обычная комната, мирно покоилась в своих четырех хорошо знакомых стенах. Над столом, где были разложены распакованные образцы сукон – Замза был коммивояжером, – висел портрет, который он недавно вырезал из иллюстрированного журнала и вставил в красивую золоченую рамку. На портрете была изображена дама в меховой шляпе и боа, она сидела очень прямо и протягивала зрителю тяжелую меховую муфту, в которой целиком исчезала ее рука. Затем взгляд Грегора устремился в окно, и пасмурная погода – слышно было, как по жести подоконника стучат капли дождя – привела его и вовсе в грустное настроение. «Хорошо бы еще немного поспать и забыть всю эту чепуху», – подумал он, но это было совершенно неосу
+						</p>
+                </div>
+					</section>
+					<section>
+						<h2 class="заголовок">моя статистика</h2>
+				<table>
+					<tr>
+						<td>Вид проекта</td>
+						<td>Сделано</td>
+						<td>Выкуплено</td>
+					</tr>
+					<tr>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+				</table>
+			</section>
+			<section>
+				<h2 class="заголовок"> Заказать у меня сайт</h2>
+				<form action="qwerty.php" method="post">
+				<div>
+					<label> Имя клиента
+						<input type="text" name="client_name" placeholder="Введите имя">
+					</label>
+				</div>
+					
+				<div>
+					<label for="email"> Электронный ящик </label>
+						<input type="text" id="email" name="email_name" placeholder="Введите email">
+					
+				</div>
+				<div>
+					<label for="pol"> Ваш пол </label>
+						<input type="radio" id="pol" name="gendre" value="male"> М
+						<input type="radio" name="gendre" value="female"> Ж
+				</div>
+				<div>
+						<span> Дополнительные возможности</span>
+						<label> <input type="checkbox" name="extra" value="adaptive" checked=""> Адаптивность</label> 
+						<label><input type="checkbox" name="extra" value="hosting"> Установка на хостинг</label>
+						<label><input type="checkbox" name="extra" value="sapport"> Поддержка</label>
+						<label><input type="checkbox" name="extra" value="admin"> Администрирование</label>
+				</div>
+				<div>
+					<label>
+						<span>Тип сайта</span>
+						<select name="type" multiple="">
+							<option value="eshop">Интернет магазин</option>
+							<option value="landing">Лэндинг</option>
+							<option value="card">Сайт визитка</option>
+						</select>
+					</label>
+				</div>
+				<div>
+					<label>
+						<span>Приложите эскиз</span>
+						<input type="file" name="file">
+					</label>
+				</div>
+				<div>
+					<label>
+						<span>Ваш комментарий</span>
+						<textarea name="comment" cols="50" rows="10" maxlength="100">	
+						</textarea>
+					</label>
+				</div>
+				<div>
+					<input type="reset" value="Сброс">
+					<button name="submit">Отправить</button>
+				</div>
+				</form>
+			</section> 
+		</div>
+	</main>
+
+	<footer>
+	<div> Это мой сайт! Не копировать!</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.заголовок {
+	color: blue;
+}
+.left-col{
+	float: left;
+	width: 30%;
+}
+.right-col{
+	float: right;
+	width: 60%;
+}
+footer {
+	clear: both;
+}
+.выравнивание {
+	text-align:center;
+}
+.цвет  {
+	color:#008000;
+	background-color:#008000;
+	height: 2px;
+	border-width:0px;
+}
+.img-center {
+	text-align:left;
+}
+.padding {
+	padding-right: 50px;
+}
